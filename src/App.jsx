@@ -16,7 +16,6 @@ const App = () => {
       setItems(storedItems);
     }
   }, []);
-
   const handleAdd = () => {
     if (name == "" || expense == "") {
       toast.dismiss()
